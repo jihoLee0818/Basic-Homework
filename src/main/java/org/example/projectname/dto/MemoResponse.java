@@ -1,0 +1,13 @@
+package org.example.projectname.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
+public class MemoResponse {
+    private Long Id;
+    private String content;
+}
