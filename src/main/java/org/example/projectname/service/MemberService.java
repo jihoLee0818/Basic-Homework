@@ -1,6 +1,5 @@
 package org.example.projectname.service;
 
-
 import lombok.RequiredArgsConstructor;
 import org.example.projectname.dto.MemberRequest;
 import org.example.projectname.dto.MemberResponse;
@@ -8,7 +7,6 @@ import org.example.projectname.entity.Member;
 import org.example.projectname.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 
 import java.util.ArrayList;
 import java.util.List;
